@@ -41,7 +41,7 @@ body {
 	border-radius: 50%;
 	top: 20px;
 	left: 20px;
-	background: #050210;
+	background: #055555;
 	animation: animacija2 1.3s ease 1s infinite running;
 }
 
@@ -58,7 +58,19 @@ body {
 
 @keyframes animacija2{
 	0% {
-		transform: scale(0.3);
+		transform: scale(0.2);
+	}
+	
+	25% {
+		transform: scale(0.4);
+	}
+	
+	50% {
+		transform: scale(0.6);
+	}
+	
+	75% {
+		transform: scale(0.8);
 	}
 	
 	100% {
